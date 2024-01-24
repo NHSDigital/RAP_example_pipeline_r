@@ -13,7 +13,7 @@ output_path <- "data_out/"
 
 pipeline <- function() {
 
-  download.file(
+  download_file_if_not_exists(
     paste(hes_data_url, hes_data_file_name, sep = ""),
     paste(download_destination, hes_data_file_name, sep = "")
   )
@@ -31,7 +31,8 @@ pipeline <- function() {
   write.csv(
     df_hes_epikey_count, 
     paste(output_path, "hes_england_episode_count", sep=""),
-    row.names = TRUE
+    row.names = FALSE,
+    column.names = TRUE
   )
 
   df_hes_epikey_count

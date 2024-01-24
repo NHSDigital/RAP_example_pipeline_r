@@ -1,9 +1,13 @@
 sayHello <- function() {
-   print('hellooooooo')
+  print('hellooooooo')
 }
 
-download_file <- function(url, destination) {
-   download.file(url, destination)
+download_file_if_not_exists <- function(url, destination) {
+  if (!file.exists(destination)) {
+    download.file(url, destination)
+  } else {
+    print( paste("file", destination, "already exists") )
+  }
 }
 
 unzip_file <- function(zip_file_path, output_path) {
