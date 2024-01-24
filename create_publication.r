@@ -1,7 +1,12 @@
 # install.packages("dplyr")
+# install.packages("docstring")
+
+library(docstring)
 library(dplyr)
 
 source("src/data_ingestion/import_data.r")
+
+docstring(download_file_if_not_exists)
 
 # Config params
 hes_data_url <- "https://s3.eu-west-2.amazonaws.com/files.digital.nhs.uk/assets/Services/Artificial+data/Artificial+HES+final/"
