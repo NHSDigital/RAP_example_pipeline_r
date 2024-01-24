@@ -1,7 +1,3 @@
-sayHello <- function() {
-  print('hellooooooo')
-}
-
 download_file_if_not_exists <- function(url, destination) {
   #' @title function download_file_if_not_exists
   #' 
