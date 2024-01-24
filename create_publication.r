@@ -1,5 +1,9 @@
 # install.packages("dplyr")
 # install.packages("docstring")
+# install.packages("packrat")
+# install.packages("rstudioapi")
+# packrat::restore()
+# 
 
 library(docstring)
 library(dplyr)
