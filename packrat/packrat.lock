@@ -30,8 +30,9 @@ Version: 1.9.0
 Hash: 163e0514adafa25e25c9aa5d11d778cb
 
 Package: cpp11
-Source: CRAN
+Source: RSPM
 Version: 0.4.7
+Hash: 87f231d4e5478795d7084cb343e8dfe2
 
 Package: crayon
 Source: RSPM
@@ -87,6 +88,11 @@ Source: RSPM
 Version: 0.10
 Hash: 9626903e1534b1b96636b0687f0af8e3
 Requires: xfun
+
+Package: jsonlite
+Source: RSPM
+Version: 1.8.8
+Hash: 88dedcc46863af71bf64c7ecd00f97d7
 
 Package: knitr
 Source: RSPM
@@ -159,14 +165,19 @@ Hash: d8b8ecf0f7c61c8b2c963bf80db2e6a7
 Package: roxygen2
 Source: RSPM
 Version: 7.2.3
-Hash: c43d587e580ff3ecccac7e668a372b42
-Requires: R6, brew, cli, commonmark, desc, knitr, pkgload, purrr,
-    rlang, stringi, stringr, withr, xml2, cpp11
+Hash: 97abb91b462e4d91318ea8a323d4c06d
+Requires: R6, brew, cli, commonmark, cpp11, desc, knitr, pkgload,
+    purrr, rlang, stringi, stringr, withr, xml2
 
 Package: rprojroot
 Source: RSPM
 Version: 2.0.4
 Hash: 573b6a8df5f488bc54fd903bd98ce410
+
+Package: rstudioapi
+Source: RSPM
+Version: 0.15.0
+Hash: 978a3c961d2c1d95f2cb9edb58f68cb7
 
 Package: stringi
 Source: RSPM
