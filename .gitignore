@@ -1,4 +1,7 @@
-data_in
-data_out
+data_in/*
+!data_in/.gitkeep
+data_out/*
+!data_out/.gitkeep
+
 packrat/lib*/
 packrat/src
