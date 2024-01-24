@@ -25,17 +25,14 @@ pipeline <- function() {
     paste(downloaded_hes_folder, downloaded_hes_file, sep = "")
   )
 
-  df_hes_epikey <- select(df_hes, "EPIKEY")
-  df_hes_epikey_count <- sapply(df_hes_epikey, function(x) n_distinct(x))
+  hes_england_episode_count <- df_hes %>% summarise(EPIKEY = n_distinct(EPIKEY))
 
   write.csv(
-    df_hes_epikey_count, 
-    paste(output_path, "hes_england_episode_count", sep=""),
+    hes_england_episode_count,
+    file = paste(output_path, "hes_england_episode_count", sep = ""),
     row.names = FALSE,
-    column.names = TRUE
+    quote = FALSE
   )
-
-  df_hes_epikey_count
 
 }
 
