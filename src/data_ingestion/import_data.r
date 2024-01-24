@@ -14,7 +14,7 @@ download_file_if_not_exists <- function(url, destination) {
   #' @param destination The local path and file name where the
   #' file will be downloaded to e.g., data_in/data.csv
   #' 
-  #' @return Nothing
+  #' @section Returns: Nothing
 
   if (!file.exists(destination)) {
     download.file(url, destination)
