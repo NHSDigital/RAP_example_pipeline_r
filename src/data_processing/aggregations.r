@@ -9,6 +9,8 @@ get_distinct_count_of_col <- function(df_input, col_name) {
     #' 
     #' @section Returns: dataframe: df with one column and one row containing the distinct count
     
-    df_aggregated <- df_input %>% summarise(EPIKEY = n_distinct(df_input[[col_name]]))
+    new_column <- enquo(col_name)
+
+    df_aggregated <- df_input %>% summarise({{col_name}} := n_distinct(df_input[[col_name]]))
     return(df_aggregated)
 }
