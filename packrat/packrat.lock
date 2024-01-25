@@ -13,6 +13,11 @@ Source: RSPM
 Version: 1.0-10
 Hash: 351dd8740b0e829369bd6bbb50ea570b
 
+Package: brio
+Source: RSPM
+Version: 1.1.4
+Hash: 25f283a7025d60b7f216618e11ed4715
+
 Package: callr
 Source: RSPM
 Version: 3.7.3
@@ -44,6 +49,17 @@ Source: RSPM
 Version: 1.4.3
 Hash: 492f5e5369a6fd09ea0047db6c64dc89
 Requires: R6, cli
+
+Package: diffobj
+Source: RSPM
+Version: 0.3.5
+Hash: 578796bf3d5e5bcbc07e9886a1d6a4d2
+Requires: crayon
+
+Package: digest
+Source: RSPM
+Version: 0.6.34
+Hash: 6359c0d2d35478f85b1e935d788b5f2d
 
 Package: docstring
 Source: RSPM
@@ -140,6 +156,11 @@ Hash: 71bad454390723600461859bccd7b10c
 Requires: cli, crayon, desc, fs, glue, pkgbuild, rlang, rprojroot,
     withr
 
+Package: praise
+Source: RSPM
+Version: 1.0.0
+Hash: 77da8f1df873a4b91e5c4a68fe2fb1b6
+
 Package: processx
 Source: RSPM
 Version: 3.8.3
@@ -156,6 +177,12 @@ Source: RSPM
 Version: 1.0.2
 Hash: b0a99e741871b658b8356a6a1ceb7d5b
 Requires: cli, rlang, lifecycle, magrittr, vctrs
+
+Package: rematch2
+Source: RSPM
+Version: 2.1.2
+Hash: b6823f74d6525d39d153620d21e206df
+Requires: tibble
 
 Package: rlang
 Source: RSPM
