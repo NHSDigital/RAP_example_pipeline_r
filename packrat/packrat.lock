@@ -8,6 +8,12 @@ Source: RSPM
 Version: 2.5.1
 Hash: 54378e523d0281f8d38c379484a3b7b5
 
+Package: askpass
+Source: RSPM
+Version: 1.2.0
+Hash: 51ae2894a47181e6b3d6ae23c81c91a9
+Requires: sys
+
 Package: brew
 Source: RSPM
 Version: 1.0-10
@@ -29,6 +35,11 @@ Source: RSPM
 Version: 3.6.2
 Hash: f8c6962f1b224fe07db30b46cf953001
 
+Package: clipr
+Source: RSPM
+Version: 0.8.0
+Hash: f8ae5e8ad6b3e416249379deec7e9c6f
+
 Package: commonmark
 Source: RSPM
 Version: 1.9.0
@@ -43,6 +54,17 @@ Package: crayon
 Source: RSPM
 Version: 1.5.2
 Hash: 7904f3b18063550691940a88a588807e
+
+Package: credentials
+Source: RSPM
+Version: 2.0.1
+Hash: 7deab4ae8efcf03e27e2730111e615b3
+Requires: askpass, sys, curl, jsonlite, openssl
+
+Package: curl
+Source: RSPM
+Version: 5.2.0
+Hash: 4fca827a30e35e19bdabee60512845da
 
 Package: desc
 Source: RSPM
@@ -94,6 +116,23 @@ Source: RSPM
 Version: 0.1.3
 Hash: a6c0d980f278aa9014c38d0d12d87a69
 
+Package: gert
+Source: RSPM
+Version: 2.0.1
+Hash: f5391e82d5b474ec0a20b506d5f88dd3
+Requires: askpass, credentials, openssl, sys, rstudioapi, zip
+
+Package: gh
+Source: RSPM
+Version: 1.4.0
+Hash: 50903f7af44e2227e3c9e2604e6d6aaf
+Requires: cli, jsonlite, rlang, gitcreds, httr2, ini
+
+Package: gitcreds
+Source: RSPM
+Version: 0.1.2
+Hash: 80f02e00799f5a27e585bd172b8207af
+
 Package: glue
 Source: RSPM
 Version: 1.6.2
@@ -104,6 +143,18 @@ Source: RSPM
 Version: 0.10
 Hash: 9626903e1534b1b96636b0687f0af8e3
 Requires: xfun
+
+Package: httr2
+Source: RSPM
+Version: 1.0.0
+Hash: 113b105b996eae7b37276212488d47ad
+Requires: R6, cli, curl, glue, lifecycle, magrittr, openssl, rlang,
+    vctrs, withr, rappdirs
+
+Package: ini
+Source: RSPM
+Version: 0.3.1
+Hash: 9d6de5178c1cedabfb24e7d2acc9a092
 
 Package: jsonlite
 Source: RSPM
@@ -126,6 +177,12 @@ Package: magrittr
 Source: RSPM
 Version: 2.0.3
 Hash: b323532bfd2fe948d0eb19afa866cb12
+
+Package: openssl
+Source: RSPM
+Version: 2.1.1
+Hash: bfc30840d1f1499e64e81b502f6aa6b3
+Requires: askpass
 
 Package: packrat
 Source: RSPM
@@ -178,6 +235,11 @@ Version: 1.0.2
 Hash: b0a99e741871b658b8356a6a1ceb7d5b
 Requires: cli, rlang, lifecycle, magrittr, vctrs
 
+Package: rappdirs
+Source: RSPM
+Version: 0.3.3
+Hash: fd602edfd7dbf365642e35dd9cc97958
+
 Package: rematch2
 Source: RSPM
 Version: 2.1.2
@@ -217,6 +279,19 @@ Version: 1.5.1
 Hash: 388874452357c95404e3daac7aaa3f16
 Requires: cli, glue, lifecycle, magrittr, rlang, stringi, vctrs
 
+Package: sys
+Source: RSPM
+Version: 3.4.2
+Hash: 61e28854faf54b74c1991286411cacf2
+
+Package: testthat
+Source: RSPM
+Version: 3.2.1
+Hash: f59272de838762f7fe6ed5a0bd4dd492
+Requires: R6, brio, callr, cli, desc, digest, evaluate, jsonlite,
+    lifecycle, magrittr, pkgload, praise, processx, ps, rlang, withr,
+    waldo
+
 Package: tibble
 Source: RSPM
 Version: 3.2.1
@@ -229,6 +304,14 @@ Version: 1.2.0
 Hash: a8024839f4e6ad6f05fef2bf4ba21fc5
 Requires: cli, glue, lifecycle, rlang, vctrs, withr
 
+Package: usethis
+Source: RSPM
+Version: 2.2.2
+Hash: d08a24d029e597d78ec987d397f48644
+Requires: cli, clipr, crayon, curl, desc, fs, gert, gh, glue, jsonlite,
+    lifecycle, purrr, rappdirs, rlang, rprojroot, rstudioapi, withr,
+    yaml, whisker
+
 Package: utf8
 Source: RSPM
 Version: 1.2.4
@@ -239,6 +322,17 @@ Source: RSPM
 Version: 0.6.5
 Hash: 50e265b536157c64e9c3704bb47d4da2
 Requires: cli, glue, lifecycle, rlang
+
+Package: waldo
+Source: RSPM
+Version: 0.5.2
+Hash: 4cf20b1f158c712ab012149268808ca3
+Requires: cli, diffobj, fansi, glue, rematch2, rlang, tibble
+
+Package: whisker
+Source: RSPM
+Version: 0.4.1
+Hash: 293afaeb696ea575b55a4650074fa923
 
 Package: withr
 Source: RSPM
@@ -260,3 +354,8 @@ Package: yaml
 Source: RSPM
 Version: 2.3.8
 Hash: 880bff82bf72ff70050084845e4b80e0
+
+Package: zip
+Source: RSPM
+Version: 2.3.0
+Hash: 17addcdfaf81f2272bb3ef42c41444ff
