@@ -1,10 +1,6 @@
 source("../../../src/data_processing/aggregations.r")
 library(dplyr)
 
-test_that("multiplication works", {
-    expect_equal(2 * 2, 4)
-})
-
 test_that("aggregation works", {
     
     df_test_data <- data.frame(
