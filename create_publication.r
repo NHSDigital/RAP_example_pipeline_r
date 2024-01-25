@@ -4,6 +4,7 @@ library(docstring)
 library(dplyr)
 
 source("src/data_ingestion/import_data.r")
+source("src/data_processing/aggregations.r")
 
 docstring(download_file_if_not_exists)
 
@@ -29,10 +30,10 @@ pipeline <- function() {
     paste(downloaded_hes_folder, downloaded_hes_file, sep = "")
   )
 
-  hes_england_episode_count <- df_hes %>% summarise(EPIKEY = n_distinct(EPIKEY))
+  df_hes_england_episode_count <- get_distinct_count_of_col(df_hes, "EPIKEY")
 
   write.csv(
-    hes_england_episode_count,
+    df_hes_england_episode_count,
     file = paste(output_path, "hes_england_episode_count", sep = ""),
     row.names = FALSE,
     quote = FALSE
