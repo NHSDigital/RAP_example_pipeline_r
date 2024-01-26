@@ -68,6 +68,12 @@ Source: RSPM
 Version: 1.9.0
 Hash: 163e0514adafa25e25c9aa5d11d778cb
 
+Package: config
+Source: RSPM
+Version: 0.3.2
+Hash: 1ccbc8fa692ac7a89758c2e9b7e97212
+Requires: yaml
+
 Package: cpp11
 Source: RSPM
 Version: 0.4.7
@@ -124,8 +130,8 @@ Package: downlit
 Source: RSPM
 Version: 0.4.3
 Hash: 0721524a3d80d654b055b90e813a8e5c
-Requires: brio, desc, digest, memoise, rlang, withr, evaluate, fansi,
-    vctrs, yaml
+Requires: brio, desc, digest, memoise, rlang, withr, yaml, evaluate,
+    fansi, vctrs
 
 Package: dplyr
 Source: RSPM
@@ -319,8 +325,8 @@ Source: RSPM
 Version: 2.0.7
 Hash: 03ad71c20d2344c1bb28731db78720a5
 Requires: bslib, callr, cli, desc, digest, fs, jsonlite, magrittr,
-    memoise, rlang, withr, downlit, httr, purrr, ragg, rmarkdown,
-    tibble, whisker, xml2, yaml
+    memoise, rlang, withr, yaml, downlit, httr, purrr, ragg, rmarkdown,
+    tibble, whisker, xml2
 
 Package: pkgload
 Source: RSPM
