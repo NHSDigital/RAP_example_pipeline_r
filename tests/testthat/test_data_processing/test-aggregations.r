@@ -1,4 +1,4 @@
-source("../../../src/data_processing/aggregations.r")
+source("src/data_processing/aggregations.r")
 library(dplyr)
 
 test_that("aggregation works", {
