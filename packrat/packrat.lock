@@ -1,0 +1,591 @@
+PackratFormat: 1.4
+PackratVersion: 0.9.2
+RVersion: 4.3.2
+Repos: CRAN=https://p3m.dev/cran/__linux__/jammy/latest
+
+Package: R6
+Source: RSPM
+Version: 2.5.1
+Hash: 54378e523d0281f8d38c379484a3b7b5
+
+Package: Rcpp
+Source: RSPM
+Version: 1.0.12
+Hash: a546bd89866770dc0f7f09a5af373a2f
+
+Package: askpass
+Source: RSPM
+Version: 1.2.0
+Hash: 51ae2894a47181e6b3d6ae23c81c91a9
+Requires: sys
+
+Package: base64enc
+Source: RSPM
+Version: 0.1-3
+Hash: c590d29e555926af053055e23ee79efb
+
+Package: brew
+Source: RSPM
+Version: 1.0-10
+Hash: 351dd8740b0e829369bd6bbb50ea570b
+
+Package: brio
+Source: RSPM
+Version: 1.1.4
+Hash: 25f283a7025d60b7f216618e11ed4715
+
+Package: bslib
+Source: RSPM
+Version: 0.6.1
+Hash: 28b35db09b4261e0d31ac3ea5d0e9367
+Requires: base64enc, cachem, htmltools, jquerylib, jsonlite, lifecycle,
+    memoise, mime, rlang, sass
+
+Package: cachem
+Source: RSPM
+Version: 1.0.8
+Hash: be5d736676d480f72a95586f0148994d
+Requires: fastmap, rlang
+
+Package: callr
+Source: RSPM
+Version: 3.7.3
+Hash: 23e7c3c608e2ffd6416e9b3b3930e5dc
+Requires: R6, processx
+
+Package: cli
+Source: RSPM
+Version: 3.6.2
+Hash: f8c6962f1b224fe07db30b46cf953001
+
+Package: clipr
+Source: RSPM
+Version: 0.8.0
+Hash: f8ae5e8ad6b3e416249379deec7e9c6f
+
+Package: commonmark
+Source: RSPM
+Version: 1.9.0
+Hash: 163e0514adafa25e25c9aa5d11d778cb
+
+Package: config
+Source: RSPM
+Version: 0.3.2
+Hash: 1ccbc8fa692ac7a89758c2e9b7e97212
+Requires: yaml
+
+Package: cpp11
+Source: RSPM
+Version: 0.4.7
+Hash: 87f231d4e5478795d7084cb343e8dfe2
+
+Package: crayon
+Source: RSPM
+Version: 1.5.2
+Hash: 7904f3b18063550691940a88a588807e
+
+Package: credentials
+Source: RSPM
+Version: 2.0.1
+Hash: 7deab4ae8efcf03e27e2730111e615b3
+Requires: askpass, jsonlite, sys, curl, openssl
+
+Package: curl
+Source: RSPM
+Version: 5.2.0
+Hash: 4fca827a30e35e19bdabee60512845da
+
+Package: desc
+Source: RSPM
+Version: 1.4.3
+Hash: 492f5e5369a6fd09ea0047db6c64dc89
+Requires: R6, cli
+
+Package: devtools
+Source: RSPM
+Version: 2.4.5
+Hash: 0bd125a01c87ee5d7e12e675b51acc1c
+Requires: cli, desc, ellipsis, fs, lifecycle, memoise, rlang, miniUI,
+    pkgbuild, pkgdown, pkgload, profvis, rcmdcheck, remotes, roxygen2,
+    rversions, sessioninfo, testthat, urlchecker, usethis, withr
+
+Package: diffobj
+Source: RSPM
+Version: 0.3.5
+Hash: 578796bf3d5e5bcbc07e9886a1d6a4d2
+Requires: crayon
+
+Package: digest
+Source: RSPM
+Version: 0.6.34
+Hash: 6359c0d2d35478f85b1e935d788b5f2d
+
+Package: docstring
+Source: RSPM
+Version: 1.0.0
+Hash: 649a026443c7c913a647e7c9a854c5e3
+Requires: roxygen2
+
+Package: downlit
+Source: RSPM
+Version: 0.4.3
+Hash: 0721524a3d80d654b055b90e813a8e5c
+Requires: brio, desc, digest, memoise, rlang, withr, yaml, evaluate,
+    fansi, vctrs
+
+Package: dplyr
+Source: RSPM
+Version: 1.1.4
+Hash: cf8609b7c84324aacf04ff14136885ab
+Requires: R6, cli, glue, lifecycle, magrittr, pillar, rlang, tibble,
+    vctrs, generics, tidyselect
+
+Package: ellipsis
+Source: RSPM
+Version: 0.3.2
+Hash: b21bfc48556c0c6a93fc9ede6c00cfaf
+Requires: rlang
+
+Package: evaluate
+Source: RSPM
+Version: 0.23
+Hash: 08739f5d201ad615bfc00b5dfb25eae2
+
+Package: fansi
+Source: RSPM
+Version: 1.0.6
+Hash: 6450a7e808fb5201cd5d63b40e9562b1
+
+Package: fastmap
+Source: RSPM
+Version: 1.1.1
+Hash: 32d3071f5657e52a92008e77660b45e4
+
+Package: fontawesome
+Source: RSPM
+Version: 0.5.2
+Hash: 89f4f0400d0ff3fc6409348f9af5d47d
+Requires: htmltools, rlang
+
+Package: fs
+Source: RSPM
+Version: 1.6.3
+Hash: 86d3c08b9086b3fbbf03b958482bb919
+
+Package: generics
+Source: RSPM
+Version: 0.1.3
+Hash: a6c0d980f278aa9014c38d0d12d87a69
+
+Package: gert
+Source: RSPM
+Version: 2.0.1
+Hash: f5391e82d5b474ec0a20b506d5f88dd3
+Requires: askpass, credentials, openssl, sys, rstudioapi, zip
+
+Package: gh
+Source: RSPM
+Version: 1.4.0
+Hash: 50903f7af44e2227e3c9e2604e6d6aaf
+Requires: cli, jsonlite, rlang, gitcreds, httr2, ini
+
+Package: gitcreds
+Source: RSPM
+Version: 0.1.2
+Hash: 80f02e00799f5a27e585bd172b8207af
+
+Package: glue
+Source: RSPM
+Version: 1.6.2
+Hash: 830d10f9f46e05aadfe458d2d31849e7
+
+Package: highr
+Source: RSPM
+Version: 0.10
+Hash: 9626903e1534b1b96636b0687f0af8e3
+Requires: xfun
+
+Package: htmltools
+Source: RSPM
+Version: 0.5.7
+Hash: e075c87086f973f84c5cc9d67683fbda
+Requires: base64enc, fastmap, rlang, digest, ellipsis
+
+Package: htmlwidgets
+Source: RSPM
+Version: 1.6.4
+Hash: 2e77eb8f2a6449cbd31c5556ae397133
+Requires: htmltools, jsonlite, knitr, rmarkdown, yaml
+
+Package: httpuv
+Source: RSPM
+Version: 1.6.13
+Hash: 5ddcf40293204d6add6ad6a0cdb606a4
+Requires: R6, Rcpp, later, promises
+
+Package: httr
+Source: RSPM
+Version: 1.4.7
+Hash: 1d57252aec74b5ba536ac7ad5c74e2d7
+Requires: R6, curl, jsonlite, mime, openssl
+
+Package: httr2
+Source: RSPM
+Version: 1.0.0
+Hash: 113b105b996eae7b37276212488d47ad
+Requires: R6, cli, curl, glue, lifecycle, magrittr, openssl, rappdirs,
+    rlang, vctrs, withr
+
+Package: ini
+Source: RSPM
+Version: 0.3.1
+Hash: 9d6de5178c1cedabfb24e7d2acc9a092
+
+Package: jquerylib
+Source: RSPM
+Version: 0.1.4
+Hash: 338eb4374296b76bdee1e463c810113d
+Requires: htmltools
+
+Package: jsonlite
+Source: RSPM
+Version: 1.8.8
+Hash: 88dedcc46863af71bf64c7ecd00f97d7
+
+Package: knitr
+Source: RSPM
+Version: 1.45
+Hash: 46d32128afc352f67ff00303ea0f1696
+Requires: evaluate, yaml, highr, xfun
+
+Package: later
+Source: RSPM
+Version: 1.3.2
+Hash: a2248ab0a9e031393710a7b8c99866a4
+Requires: Rcpp, rlang
+
+Package: lifecycle
+Source: RSPM
+Version: 1.0.4
+Hash: e5df1048a7975c2b3446b405c315653f
+Requires: rlang, cli, glue
+
+Package: magrittr
+Source: RSPM
+Version: 2.0.3
+Hash: b323532bfd2fe948d0eb19afa866cb12
+
+Package: memoise
+Source: RSPM
+Version: 2.0.1
+Hash: fa0687ee20196d8aa4e2d724cb0f7199
+Requires: cachem, rlang
+
+Package: mime
+Source: RSPM
+Version: 0.12
+Hash: 98a37137be334916af8af26354bb37e9
+
+Package: miniUI
+Source: RSPM
+Version: 0.1.1.1
+Hash: c7e3ea486421c2fa5b03bb7fcd0415f6
+Requires: htmltools, shiny
+
+Package: openssl
+Source: RSPM
+Version: 2.1.1
+Hash: bfc30840d1f1499e64e81b502f6aa6b3
+Requires: askpass
+
+Package: packrat
+Source: RSPM
+Version: 0.9.2
+Hash: d3bf41196a75aea08470c041f34bddff
+
+Package: pillar
+Source: RSPM
+Version: 1.9.0
+Hash: b67d111d1d9bed9554805b7f4a2fab75
+Requires: cli, fansi, glue, lifecycle, rlang, vctrs, utf8
+
+Package: pkgbuild
+Source: RSPM
+Version: 1.4.3
+Hash: f3fee4c8b16e496d773e58fbd920b5ec
+Requires: R6, callr, cli, desc, processx
+
+Package: pkgconfig
+Source: RSPM
+Version: 2.0.3
+Hash: 5ff5f2361851a49534c96caa2a8071c7
+
+Package: pkgdown
+Source: RSPM
+Version: 2.0.7
+Hash: 03ad71c20d2344c1bb28731db78720a5
+Requires: bslib, callr, cli, desc, digest, fs, jsonlite, magrittr,
+    memoise, rlang, withr, yaml, downlit, httr, purrr, ragg, rmarkdown,
+    tibble, whisker, xml2
+
+Package: pkgload
+Source: RSPM
+Version: 1.3.3
+Hash: 71bad454390723600461859bccd7b10c
+Requires: cli, crayon, desc, fs, glue, pkgbuild, rlang, withr,
+    rprojroot
+
+Package: praise
+Source: RSPM
+Version: 1.0.0
+Hash: 77da8f1df873a4b91e5c4a68fe2fb1b6
+
+Package: prettyunits
+Source: RSPM
+Version: 1.2.0
+Hash: 91bcd4fa879642fbc490e356d8dc074b
+
+Package: processx
+Source: RSPM
+Version: 3.8.3
+Hash: 90b39e7b31ff53ec7c72e8b481f402de
+Requires: R6, ps
+
+Package: profvis
+Source: RSPM
+Version: 0.3.8
+Hash: 9fc1e3158adba2738cf3f9125fa3ab55
+Requires: purrr, rlang, stringr, vctrs, htmlwidgets
+
+Package: promises
+Source: RSPM
+Version: 1.2.1
+Hash: 4fd4a15e166dc6329f92e9aa9d32c0ac
+Requires: R6, Rcpp, fastmap, later, rlang, magrittr
+
+Package: ps
+Source: RSPM
+Version: 1.7.5
+Hash: e66768bb271558f9eb3dcc56be5b50ef
+
+Package: purrr
+Source: RSPM
+Version: 1.0.2
+Hash: b0a99e741871b658b8356a6a1ceb7d5b
+Requires: cli, lifecycle, magrittr, rlang, vctrs
+
+Package: ragg
+Source: RSPM
+Version: 1.2.7
+Hash: 3b8e0ceda42758b6a6bf1d9d3c1b30bf
+Requires: systemfonts, textshaping
+
+Package: rappdirs
+Source: RSPM
+Version: 0.3.3
+Hash: fd602edfd7dbf365642e35dd9cc97958
+
+Package: rcmdcheck
+Source: RSPM
+Version: 1.4.0
+Hash: 66ad435fb6426602dcab6b3a6b0305d9
+Requires: R6, callr, cli, curl, desc, digest, pkgbuild, rprojroot,
+    withr, prettyunits, sessioninfo, xopen
+
+Package: rematch2
+Source: RSPM
+Version: 2.1.2
+Hash: b6823f74d6525d39d153620d21e206df
+Requires: tibble
+
+Package: remotes
+Source: RSPM
+Version: 2.4.2.1
+Hash: 802520ea60fe1afffc89e2eb63963f2c
+
+Package: rlang
+Source: RSPM
+Version: 1.1.2
+Hash: d8b8ecf0f7c61c8b2c963bf80db2e6a7
+
+Package: rmarkdown
+Source: RSPM
+Version: 2.25
+Hash: d68d0eb4181863ea7da515a735d259e1
+Requires: bslib, evaluate, fontawesome, htmltools, jquerylib, jsonlite,
+    yaml, knitr, stringr, tinytex, xfun
+
+Package: roxygen2
+Source: RSPM
+Version: 7.2.3
+Hash: 97abb91b462e4d91318ea8a323d4c06d
+Requires: R6, brew, cli, commonmark, cpp11, desc, knitr, pkgload,
+    purrr, rlang, stringi, stringr, withr, xml2
+
+Package: rprojroot
+Source: RSPM
+Version: 2.0.4
+Hash: 573b6a8df5f488bc54fd903bd98ce410
+
+Package: rstudioapi
+Source: RSPM
+Version: 0.15.0
+Hash: 978a3c961d2c1d95f2cb9edb58f68cb7
+
+Package: rversions
+Source: RSPM
+Version: 2.1.2
+Hash: 32cc074dc0d31eb9fcebf79ae9007951
+Requires: curl, xml2
+
+Package: sass
+Source: RSPM
+Version: 0.4.8
+Hash: 993782ba6526e6d41b475c67ab54db32
+Requires: htmltools, rlang, R6, fs, rappdirs
+
+Package: sessioninfo
+Source: RSPM
+Version: 1.2.2
+Hash: 9626b28fb28a06a419066289acb1c59d
+Requires: cli
+
+Package: shiny
+Source: RSPM
+Version: 1.8.0
+Hash: d5502f0fe75493b1079199dbb7c2f173
+Requires: R6, bslib, cachem, commonmark, crayon, ellipsis, fastmap,
+    glue, htmltools, jsonlite, lifecycle, mime, rlang, fontawesome,
+    httpuv, later, promises, sourcetools, withr, xtable
+
+Package: sourcetools
+Source: RSPM
+Version: 0.1.7-1
+Hash: a5577b3b55aeb055fce58b3a5a378223
+
+Package: stringi
+Source: RSPM
+Version: 1.8.3
+Hash: 608a29f54ad5a0806b464d9541142983
+
+Package: stringr
+Source: RSPM
+Version: 1.5.1
+Hash: 388874452357c95404e3daac7aaa3f16
+Requires: cli, glue, lifecycle, magrittr, rlang, vctrs, stringi
+
+Package: sys
+Source: RSPM
+Version: 3.4.2
+Hash: 61e28854faf54b74c1991286411cacf2
+
+Package: systemfonts
+Source: RSPM
+Version: 1.0.5
+Hash: 91c98640a90bb3fa949aa63dd002f14f
+Requires: cpp11
+
+Package: testthat
+Source: RSPM
+Version: 3.2.1
+Hash: f59272de838762f7fe6ed5a0bd4dd492
+Requires: R6, brio, callr, cli, desc, digest, evaluate, jsonlite,
+    lifecycle, magrittr, pkgload, processx, ps, rlang, withr, praise,
+    waldo
+
+Package: textshaping
+Source: RSPM
+Version: 0.3.7
+Hash: 5a0881c4d271bb9d16f958eb1191e960
+Requires: cpp11, systemfonts
+
+Package: tibble
+Source: RSPM
+Version: 3.2.1
+Hash: f634c4ad37cc3daf43bff89d25575d98
+Requires: fansi, lifecycle, magrittr, rlang, vctrs, pillar, pkgconfig
+
+Package: tidyselect
+Source: RSPM
+Version: 1.2.0
+Hash: a8024839f4e6ad6f05fef2bf4ba21fc5
+Requires: cli, glue, lifecycle, rlang, vctrs, withr
+
+Package: tinytex
+Source: RSPM
+Version: 0.49
+Hash: 0c2e8b693d854cad3978a7be0598e440
+Requires: xfun
+
+Package: urlchecker
+Source: RSPM
+Version: 1.0.1
+Hash: 49e2b23e3af77982fa81ac07a8f77b0b
+Requires: cli, curl, xml2
+
+Package: usethis
+Source: RSPM
+Version: 2.2.2
+Hash: d08a24d029e597d78ec987d397f48644
+Requires: cli, clipr, crayon, curl, desc, fs, glue, jsonlite,
+    lifecycle, purrr, rappdirs, rlang, rprojroot, whisker, withr, yaml,
+    gert, gh, rstudioapi
+
+Package: utf8
+Source: RSPM
+Version: 1.2.4
+Hash: 3170edfc15fee35a12c915c8637660a6
+
+Package: vctrs
+Source: RSPM
+Version: 0.6.5
+Hash: 50e265b536157c64e9c3704bb47d4da2
+Requires: cli, glue, lifecycle, rlang
+
+Package: waldo
+Source: RSPM
+Version: 0.5.2
+Hash: 4cf20b1f158c712ab012149268808ca3
+Requires: cli, fansi, glue, rlang, tibble, diffobj, rematch2
+
+Package: whisker
+Source: RSPM
+Version: 0.4.1
+Hash: 293afaeb696ea575b55a4650074fa923
+
+Package: withr
+Source: RSPM
+Version: 2.5.2
+Hash: a519a9d43a0552c05807e8b1d9d3e905
+
+Package: xfun
+Source: RSPM
+Version: 0.41
+Hash: b932fb807fc204a73eaeb0d3f506f2ff
+
+Package: xml2
+Source: RSPM
+Version: 1.3.6
+Hash: ee0239ee1f660d254e73662d3057cf72
+Requires: cli, rlang
+
+Package: xopen
+Source: RSPM
+Version: 1.0.0
+Hash: 22c2708f177f9fd9f8a52012bac61d6a
+Requires: processx
+
+Package: xtable
+Source: RSPM
+Version: 1.8-4
+Hash: dc0d47261b678d26032363bebd050540
+
+Package: yaml
+Source: RSPM
+Version: 2.3.8
+Hash: 880bff82bf72ff70050084845e4b80e0
+
+Package: zip
+Source: RSPM
+Version: 2.3.0
+Hash: 17addcdfaf81f2272bb3ef42c41444ff
