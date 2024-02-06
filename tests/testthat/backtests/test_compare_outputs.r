@@ -1,4 +1,4 @@
-source("tests/testthat/backtests/backtest_params.r")
+source("backtest_params.r")
 
 for (backtest in bt_params$files_to_compare) {
 
@@ -6,7 +6,7 @@ for (backtest in bt_params$files_to_compare) {
     expected_path = paste(bt_params$ground_truth_base_path, backtest$ground_truth_file, sep="")
     test_name = paste(backtest$test_name, "matches ground truth")
 
-    if(!file.exists(actual)) {
+    if(!file.exists(actual_path)) {
         print('output file does not exist... running pipeline')
     }
 
