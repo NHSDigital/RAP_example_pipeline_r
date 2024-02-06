@@ -1,4 +1,6 @@
-source("backtest_params.r")
+source("./backtests/backtest_params.r")
+
+setwd("../../")
 
 for (backtest in bt_params$files_to_compare) {
 

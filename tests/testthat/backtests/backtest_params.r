@@ -1,6 +1,6 @@
 bt_params <- list(
-    output_base_path = "../../../data_out/",
-    ground_truth_base_path = "ground_truth/",
+    output_base_path = "./data_out/",
+    ground_truth_base_path = "./tests/testthat/backtests/ground_truth/",
 
     files_to_compare = list(
         list(
