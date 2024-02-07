@@ -3,5 +3,7 @@
     "features": {
         "ghcr.io/rocker-org/devcontainer-features/rstudio-server:latest": {}
     },
-    "postCreateCommand": "rserver"
+    "postAttachCommand": {
+        "rstudio-start": "rserver"
+    }
 }

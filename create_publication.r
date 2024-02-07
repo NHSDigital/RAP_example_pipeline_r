@@ -26,7 +26,7 @@ pipeline <- function() {
 
   write.csv(
     df_hes_england_episode_count,
-    file = paste(config$output_path, "hes_england_episode_count", sep = ""),
+    file = paste(config$output_path, "hes_england_episode_count.csv", sep = ""),
     row.names = FALSE,
     quote = FALSE
   )

@@ -1,10 +1,12 @@
-source("../../../src/data_processing/aggregations.r")
 library(dplyr)
+
+setwd("../../src/data_processing/")
+source("aggregations.r")
 
 test_that("aggregation works", {
     
     df_test_data <- data.frame(
-        test_column = c("A", "B", "C", "D")
+        test_column = c("A", "B", "C", "D", "D")
     )
 
     df_expected <- data.frame(
