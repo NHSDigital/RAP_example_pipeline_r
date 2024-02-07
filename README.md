@@ -1,4 +1,4 @@
-# RAP Example Pipeline - Python using R
+# RAP Example Pipeline - using R
 
 :exclamation: Warning: this repository may contain references internal to NHS England that cannot be accessed publicly
 
