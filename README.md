@@ -82,7 +82,7 @@ This code requires R version 4.3.2 (2023-10-31, nickname: Eye Holes), the R Proj
 1. Clone the repository. To learn about what this means, and how to use Git, see the [Git guide](https://nhsdigital.github.io/rap-community-of-practice/training_resources/git/using-git-collaboratively/).
 
 ```
-git clone https://github.com/NHSDigital/RAP_example_pipeline_python
+git clone https://github.com/NHSDigital/RAP_example_pipeline_r
 ```
 
 2. Make sure you have packrat installed. From the R console:
@@ -100,7 +100,7 @@ To run the pipeline, run the create_publication.r file, either by running that f
 `Rscript create_publication.r`
 
 ## Running the tests
-There are two sets of tests in this structure (and you can see guidance on them by following the hyperlinks): 
+There are two sets of tests in this structure (and you can see guidance on them by following the hyperlinks, this guidance is for Python but the principles are the same): 
 
 * **[Unit tests](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/unit-testing/)**: these test functions in isolation to ensure they do what you expect them to.
 * **[Back tests](https://nhsdigital.github.io/rap-community-of-practice/training_resources/python/backtesting/)**: when you refactor a pipeline or re-create it entirely, it's a good idea to compare the results of the old process (often referred to as the "ground truth") to the results of the new pipeline. This is what the back tests do. Here, the back tests will first check if the output files exist in the data_out folder, and if not, it will run the pipeline and create these files so that it can compare them to the ground truth files (stored in the `tests/testthis/ground_truth/` folder). Note that you don't need to commit your ground truth files to your repo (for example if they are very large or contain sensitive data).
