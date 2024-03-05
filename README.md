@@ -107,7 +107,7 @@ There are two sets of tests in this structure (and you can see guidance on them 
 
 Testing is done with the testthat package. Testthat will automatically run all R files starting with `test` within the `tests/testthat/`folder. You can run the tests from the R console with:
 
-`testthis::test_dir("tests/testthat")`
+`testthat::test_dir("tests/testthat")`
 
 ## Project structure
 
